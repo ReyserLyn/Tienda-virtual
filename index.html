@@ -19,29 +19,48 @@
     <script src="https://kit.fontawesome.com/9eea97315a.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <!-- INCIO DEL HEADER -->
     <header class="header">
         <nav class="nav">
-            <a href="index.html" class="logo nav-link">Tienda</a>
             <button class="nav-toggle">
                 <i class="fa-solid fa-bars"></i>
             </button>
+
+            <a href="index.html" class="logo nav-link">Tienda</a>
+
             <ul class="nav-menu">
+                <div class="nav-xmark">
+                    <a href="index.html" class="logo nav-xmark">Tienda</a>
+                    <i class="fa-solid fa-circle-xmark xmark"></i>
+                </div>
+
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link_active" id="inicio">Inicio</a></li>
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link" id="perifericos">Perifericos</a></li>
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link" id="hardware">Hardware</a></li>
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link" id="software">Software</a></li>
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link" id="contacto">Contacto</a></li>
             </ul>
+
+            <div class="nav-user">
+                <a href="#" class="nav-user-link">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <div class="nav-user-text-login">Ingresar</div>
+                </a>
+                
+                <a href="#" class="nav-user-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                
+            </div>
         </nav>
     </header>
     <!-- FIN DEL HEADER -->
 
 
     <!-- SCRIPT -->
-    <script src="/js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
