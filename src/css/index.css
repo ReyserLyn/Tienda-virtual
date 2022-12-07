@@ -6,7 +6,7 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    padding: 80px 20px 0px;
+    padding: 65px 20px 0px;
 }
 
 /* <-------------------- INICIO HEADER --------------------> */
@@ -114,7 +114,6 @@ body{
     border-radius: 50%;
     line-height: 50px;
     margin-top: 7.5px;
-    cursor: pointer;
 }
 
 .nav-user-cart:hover{
@@ -127,7 +126,6 @@ body{
     line-height: 22px;
     border-radius: 10px;
     margin-right: 10px;
-    cursor: pointer;
 }
 
 .nav-user-link:hover{
